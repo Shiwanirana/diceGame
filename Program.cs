@@ -33,7 +33,8 @@ namespace diceGame
             Console.WriteLine("Dice 2-->" +diceIndex2);
             number.Add(diceIndex1);
              number.Add(diceIndex2);
-             var result = diceIndex1 == diceIndex2?"Your Score is 0":"Your Score is: " + diceIndex1+ diceIndex2;
+             int sum = diceIndex1+diceIndex2;
+             var result = diceIndex1 == diceIndex2?"Your Score is 0":"Your Score is: " + sum;
              Console.WriteLine(result);
             }
             }
